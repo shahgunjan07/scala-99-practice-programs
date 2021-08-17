@@ -10,15 +10,15 @@ import program__7.Solution_1_scala_7.flatten
 
 object Solution_1_scala_8 {
 
-  def removeDuplicates[A](input : List[A]) : List[A] = {
+  def removeDuplicates[A](input : List[A] ) : List[A] = {
 
-      def removeDuplicates(result : List[A], currentList : List[A]): List[A] = {
+      def removeDuplicates(result : List[A] = List(), currentList : List[A]): List[A] = {
         currentList match {
           case head :: tail => removeDuplicates(result ::: List(head), tail.dropWhile(_ == head))
           case Nil => result
       }
     }
-    removeDuplicates(List(), input)
+    removeDuplicates(currentList = input)
   }
 }
 

@@ -23,19 +23,15 @@ object Solution_1_scala_7 {
     }
     flatten(List(),input)
   }
-
 }
 
 object Solution_2_scala_7 {
-
   def flatten[A](input : List[A]) : List[A] = {
     input flatMap  {
       case elememt : List[A] => flatten(elememt)
       case e =>   List(e)
     }
   }
-
-
 }
 
 
