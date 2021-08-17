@@ -1,4 +1,6 @@
-import Solution_1_scala_2.executeIfConditionMatch
+package program__2
+
+import program__2.Solution_1_scala_2.executeIfConditionMatch
 
 /** Requirement : Find last but one element of a list **/
 /** Requirement : Find second last element of a list **/

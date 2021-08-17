@@ -1,4 +1,6 @@
-import Solution_1_scala_3.findNthElement
+package program__3
+
+import program__3.Solution_1_scala_3.findNthElement
 
 import java.util.NoSuchElementException
 

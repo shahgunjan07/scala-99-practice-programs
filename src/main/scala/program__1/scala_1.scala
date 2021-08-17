@@ -1,5 +1,8 @@
-import Solution_1.reduceToIndice
-import Solution_2.executeIfConditionMatch
+package program__1
+
+import program__1.Solution_1.reduceToIndice
+import program__1.Solution_2.executeIfConditionMatch
+
 import scala.collection.mutable.Buffer
 
 /** Requirement : Find last element of a list **/
