@@ -22,6 +22,11 @@ object Solution_1_scala_9 {
     }
   }
 
+
+}
+
+object Solution_2_scala_9 {
+
   /**
    *  Implementation using foldLeft method
    */
@@ -34,12 +39,13 @@ object Solution_1_scala_9 {
   }
 
 }
+
 object scala_9 extends App {
 
   val input1: mutable.Seq[Char] = mutable.Seq('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
   val input2: List[Char] = List('a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
 
   println("Result after packing duplicate characters using foldLeft : "+Solution_1_scala_9.groupByChar(input1))
-  println("Result after packing duplicate characters using tail recursion: "+Solution_1_scala_9.groupByCharWithTailRec(input2))
+  println("Result after packing duplicate characters using tail recursion: "+Solution_2_scala_9.groupByCharWithTailRec(input2))
 
 }
